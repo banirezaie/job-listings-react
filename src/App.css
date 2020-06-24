@@ -1,5 +1,6 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Spartan&display=swap");
+* {
+  font-family: "Spartan", sans-serif;
 }
 
 .App-logo {
@@ -11,23 +12,69 @@
 .App-header {
   background-color: #effafa;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
   color: black;
 }
 
-.parentJobDiv {
+.parentJobDiv,
+.parentJobDivFeatured {
+  display: flex;
+  justify-items: flex-start;
   background-color: white;
   width: 75%;
   height: 10em;
   margin: 2em auto 2em auto;
-  box-shadow: 20px 35px 70px 35px rgba(92, 164, 164, 0.6);
+  box-shadow: 5px 15px 20px 15px rgba(92, 164, 164, 0.6);
   border-radius: 5px;
 }
 
+.parentJobDivFeatured {
+  border-left: 5px solid #5ca4a4;
+}
+
+.logo {
+  margin: auto 1.5em auto 3em;
+}
 .App-link {
   color: #61dafb;
+}
+.cardInformation {
+  display: flex;
+  justify-items: flex-start;
+  flex-direction: column;
+  margin: auto 0 auto 0;
+}
+.companyName {
+  color: #5ca4a4;
+  font-weight: bolder;
+}
+.new {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #5ca4a4;
+  color: white;
+  font-weight: bold;
+  font-size: medium;
+  padding: 2px 7px;
+  border-radius: 25px;
+  margin-left: 1em;
+}
+.featured {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #2c3a3a;
+  color: white;
+  font-weight: bold;
+  font-size: medium;
+  padding: 2px 7px;
+  border-radius: 25px;
+  margin-left: 1em;
+}
+.title {
+  font-size: x-large;
+  margin: 0;
+}
+
+.jobInformation {
+  font-size: large;
+  font-weight: 800;
+  color: rgb(141, 141, 141);
 }
