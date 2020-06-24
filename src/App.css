@@ -9,14 +9,23 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #effafa;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: black;
+}
+
+.parentJobDiv {
+  background-color: white;
+  width: 75%;
+  height: 10em;
+  margin: 2em auto 2em auto;
+  box-shadow: 20px 35px 70px 35px rgba(92, 164, 164, 0.6);
+  border-radius: 5px;
 }
 
 .App-link {
