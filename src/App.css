@@ -10,16 +10,20 @@
 }
 
 .App-header {
-  background-color: #effafa;
+  background-color: #65b9ba;
   min-height: 100vh;
   font-size: calc(10px + 2vmin);
   color: black;
+}
+.flexDiv {
+  display: flex;
 }
 
 .parentJobDiv,
 .parentJobDivFeatured {
   display: flex;
   justify-items: flex-start;
+  justify-content: space-between;
   background-color: white;
   width: 75%;
   height: 10em;
@@ -77,4 +81,22 @@
   font-size: large;
   font-weight: 800;
   color: rgb(141, 141, 141);
+}
+.requirements {
+  display: flex;
+}
+.eachRequirement {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 5px;
+  background: rgb(238, 246, 246);
+  color: #5ba4a4;
+  margin: auto 1em auto 0;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bolder;
+  font-size: medium;
+}
+.eachRequirement:hover {
+  background: #5ba4a4;
+  color: rgb(238, 246, 246);
 }
